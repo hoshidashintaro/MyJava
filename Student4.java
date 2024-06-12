@@ -1,11 +1,11 @@
 //子クラス
-public class Student3 extends Person3 {
+public class Student4 extends Person3 {
     private int stuNo;
 
-    public Student3(String name) {
+    public Student4(String name) {
         this(name, 999);
     }
-    public Student3(String name, int stuNo) {
+    public Student4(String name, int stuNo) {
         super(name);
         this.stuNo = stuNo;
     }
