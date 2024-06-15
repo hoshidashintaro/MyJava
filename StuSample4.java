@@ -14,6 +14,9 @@
 //実行用クラス
 public class StuSample4 {
     public static void main(String[] args) {
+        /*
+         * BASE_NOは、定数のため上書きできない
+        */
         final int BASE_NO = 1000;
         Student4 stu1 = new Student4("菅原", BASE_NO + 1);
         stu1.display();

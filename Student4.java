@@ -12,7 +12,10 @@
  *    サブクラスで再定義できなくなる
  */
 //子クラス
-public class Student4 extends Person4 {
+/*
+ * クラスをfinalで設定しているため継承ができない
+*/
+final class Student4 extends Person4 {
     private int stuNo;
 
     public Student4(String name, int stuNo) {
