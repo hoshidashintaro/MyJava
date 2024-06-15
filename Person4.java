@@ -1,5 +1,5 @@
 /*
- * 内容：
+ * 内容：this superについて
  */
 //親クラス（スーパークラス）
 public class Person4 {
